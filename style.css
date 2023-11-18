@@ -1,0 +1,78 @@
+* {
+	margin:0;
+}
+body{
+font-family: Helvetica;
+font-size: 16px;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+Header {
+	background-color: Black; 
+	padding: 20px;
+	color: White;
+}
+h1 {
+	font-family: Georgia, serif;
+}
+
+nav {
+	background-color: red;
+	color: Black;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px;
+}
+main {
+	padding: 20px;
+}
+
+footer {
+	   background-color: Black;
+	   font-size: .8em;
+	   font-style: italic;
+	   color: #ffffff;
+	   margin-top: auto;
+	   padding: 10px;
+   }
+ .logoImg {
+	   width: 200px
+ }
+  .logoDiv {
+	  text-align: center;
+  }
+   a:link {
+	     color: #873600;
+   }
+    a:visited {
+		  color: #873600;
+	}
+	 a:hover {
+		   color: gold;
+	 }
+	  /* table */
+	  table, td, th {
+		   border: 1px solid #cccccc;
+		    border-spacing: 0;
+	  }
+	  table {
+		    width: 100%;
+	  }
+	  th {
+		    font-family: Georgia, serif;
+			background-color: #FEF7EC;
+	  }
+	  th, td {
+		   padding: 10px 30px;
+	  }
+	   .pageTitle {
+	   padding-bottom: 10px;
+	   border-bottom: 1px solid #cccccc;
+	   margin-bottom: 20px;
+   }
+   
+  .youtube-video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
